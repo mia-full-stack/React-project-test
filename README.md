@@ -1,4 +1,6 @@
 Pet Shop Backend
+
+mongodb+srv://<db_username>:<db_password>@cluster0.scwkszf.mongodb.net/
 Описание
 Это backend часть проекта интернет-магазина товаров для домашних животных. Он реализует REST API для работы с категориями, продуктами и заказами.
 
@@ -39,6 +41,7 @@ npm run dev
 Вы можете проверить работу API через Postman или браузер.
 
 Примеры API маршрутов
+mongodb+srv://Mia:KdPEXyFZFQ6ETmV@cluster0.scwkszf.mongodb.net/
 Получение всех категорий: GET /categories/all
 Получение продуктов по категории: GET /categories/:id
 Получение всех продуктов: GET /products/all
